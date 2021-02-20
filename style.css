@@ -1,0 +1,88 @@
+.grid {
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.8s linear 1s;
+}
+.grid-1{
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.8s linear 1s;
+}
+.images-loaded .grid {
+  opacity: 1;
+}
+.item {
+  position: absolute;
+  margin: 5px;
+  z-index: 1;
+  display : block;
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  line-height: 250px;
+}
+.info{
+border: 2px solid rgb(156, 156, 156);
+}
+.item.muuri-item-hidden {
+  z-index: 0;
+}
+.item.muuri-item-releasing {
+  z-index: 2;
+}
+.item.muuri-item-dragging {
+  z-index: 3;
+}
+.item-content {
+  position: relative;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  border-style: dashed;
+  border: #bbbbbb;
+  border-width: 1px;
+}
+.item-content > img {
+  display: block;
+  border-radius: 1px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-transform: uppercase;
+  transition: opacity 0.6s linear 0.4s;
+}
+.images-loaded .loading {
+  opacity: 0;
+}
+body{
+  position: relative;
+  font-family: Ubuntu,"Fira Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 20px;
+  background:#111213;
+  color: #c9c9c9;
+}
+.container > header h2 {
+	display: block;
+	font-size: 40px;
+	font-weight: 300;
+  text-align: center;
+}
+.section-title {
+  color: #bbbbbb;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 40px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
