@@ -19,6 +19,9 @@ var grid1 = new Muuri('.grid-1', {
 
 var grid2 = new Muuri('.grid-2', {
   dragEnabled: false,
+  layout: {
+    alignBottom: true,
+  }
 });
 
 

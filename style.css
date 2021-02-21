@@ -28,7 +28,7 @@ width: 144px;
 line-height: 144px;
 }
 .small{
-  border: 1px dashed rgb(156, 156, 156);
+  border: 1px dashed rgb(99, 99, 99); 
   height: 55px;
   width: 55px;
   line-height: 55px;
@@ -95,3 +95,31 @@ body{
   text-transform: uppercase;
   text-align: center;
 }
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
