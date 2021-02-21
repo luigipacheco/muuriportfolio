@@ -95,6 +95,8 @@ body{
   text-transform: uppercase;
   text-align: center;
 }
+
+/* image hover effect */
 .image {
   opacity: 1;
   display: block;
