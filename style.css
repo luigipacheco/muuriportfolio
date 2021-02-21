@@ -16,14 +16,23 @@
   margin: 5px;
   z-index: 1;
   display : block;
-  height: 250px;
-  width: 250px;
+  height: 233px;
+  width: 233px;
   text-align: center;
-  line-height: 250px;
+  line-height: 233px;
 }
 .info{
 border: 2px solid rgb(156, 156, 156);
+height: 144px;
+width: 144px;
+line-height: 144px;
 }
+.small{
+  border: 1px dashed rgb(156, 156, 156);
+  height: 55px;
+  width: 55px;
+  line-height: 55px;
+  }
 .item.muuri-item-hidden {
   z-index: 0;
 }
