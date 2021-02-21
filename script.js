@@ -21,6 +21,7 @@ var grid2 = new Muuri('.grid-2', {
   dragEnabled: false,
 });
 
+
 // When all items have loaded refresh their
 // dimensions and layout the grid.
 window.addEventListener('load', function () {
