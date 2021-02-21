@@ -23,9 +23,9 @@
 }
 .info{
 border: 2px solid rgb(156, 156, 156);
-height: 144px;
-width: 144px;
-line-height: 144px;
+height: 55px;
+width: 233px;
+line-height: 55px;
 }
 .small{
   border: 1px dashed rgb(99, 99, 99); 
@@ -132,7 +132,7 @@ body{
 }
 
 .container:hover .image {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .container:hover .middle {
@@ -147,5 +147,6 @@ body{
   height: 20px;
   width: 233px;
   line-height: 20px;
-  background-color: #292929;
+  background-color: #d6d6d6;
+  color: #181818;
 } 
